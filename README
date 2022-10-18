@@ -1,0 +1,29 @@
+THIS IS THE INSTRUCTION TO RUN THIS PROGRAM
+THIS INSTRUCTION ONLY SHOW HOW TO RUN THE PROGRAM
+
+There are 4 python files.
+Must have pycrtodome installed. 
+
+Imported modules glob, os, pickle.
+os: change file name, "os.path.splitext()" & "os.rename()".
+glob: get the file's path. glob.glol(r'./*.txt')
+pickle: write variable in a file, "pickle.dump()"  and read them "pickle.load()".
+
+************************************************
+To run file, in terminal: python3 filename.py 
+************************************************
+Go to the Ransomware directory
+Ransomware
+1) Run keygen.py. 
+2) Move the public key (receiver.pem) to the victim file
+3) On the victim's file directory, run HybEncrypt.py. 
+  
+Recovery 
+4) Move the encrypted symetric key file (ransomkey.bin) to the Hacker's directory.
+5) On Hacker's directory, run SymKeyDecrypt.py.
+5) Move ramsomkey.txt to the victim's directory.
+6) On the victim file directory, run FileDecrypt.py. 
+       ======Finished======
+
+TO RESTART THIS PROGRAM, EXCEPT .PY FILES AND "BACKUP" FOLDER DELETE EVERY DOCUMENT IN VICTIM FILE AND HACKER FILE. 
+COPY ALL FILES IN "BACKUP" TO THE VICTIM FILES AND RESTART THE INSTRUCTION.
